@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC6OZOheyQX2Y8PotENX4-kFsgYLKzSB1o",
-  authDomain: "shopping-freak-authentication.firebaseapp.com",
-  projectId: "shopping-freak-authentication",
-  storageBucket: "shopping-freak-authentication.appspot.com",
-  messagingSenderId: "714707547493",
-  appId: "1:714707547493:web:caf6b60b07a918f1c85d8c",
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
