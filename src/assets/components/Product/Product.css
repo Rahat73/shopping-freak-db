@@ -1,0 +1,32 @@
+.product {
+  margin: 30px;
+  background-color: rgb(122, 140, 155);
+  color: black;
+  position: relative;
+  border-radius: 7px;
+}
+
+.product img {
+  width: 286px;
+  height: 286px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.product-details {
+  text-align: left;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+.add-btn {
+  background-color: #61eeaa;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.add-btn:hover {
+  background-color: burlywood;
+}

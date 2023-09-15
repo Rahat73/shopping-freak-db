@@ -1,0 +1,21 @@
+.header {
+  background-color: rgb(5, 35, 64);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.current-user {
+  display: inline;
+  margin-inline: 10px;
+  font-weight: 800;
+}

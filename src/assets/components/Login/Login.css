@@ -1,0 +1,68 @@
+.form-container {
+  width: 500px;
+  height: 650px;
+  margin: 20px auto;
+  border: 5px solid;
+  border-color: aliceblue;
+  padding: 15px;
+}
+
+.form-title {
+  font-size: 30px;
+}
+
+.form-control {
+  margin: 20px 0px 20px 0px;
+  padding-left: 90px;
+}
+
+.form-control label {
+  display: block;
+  text-align: left;
+}
+
+.form-control input {
+  display: block;
+  text-align: left;
+  width: 300px;
+  height: 40px;
+  font-size: large;
+}
+
+.btn-submit {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.divider {
+  display: flex;
+  margin-top: 40px;
+  margin-inline: auto;
+  width: 75%;
+  align-items: center;
+}
+
+.line {
+  flex-grow: 1;
+  border-top: 2px dotted;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-inline: 10px;
+}
+
+.new-account {
+  color: chartreuse;
+  margin-left: 8px;
+}
+
+.google-btn {
+  width: 300px;
+  height: 40px;
+  margin-top: 40px;
+  font-size: small;
+  border-radius: 3px;
+  background-color: rgb(8, 123, 161);
+}
