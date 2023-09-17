@@ -18,3 +18,16 @@
   background-color: rgb(241, 144, 40);
   width: 100%;
 }
+
+.pagination {
+  background-color: rgb(60, 15, 34);
+  padding-bottom: 20px;
+}
+
+.pagination button {
+  margin-inline: 3px;
+}
+
+.pagination .selected {
+  background-color: rgb(241, 144, 40);
+}
